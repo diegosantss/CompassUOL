@@ -1,4 +1,6 @@
-# Olá, me chamo Diego. Esse repositório foi criado para armazenar o conteúdo e os códigos das atividades do Programa de Bolsas da Compass UOL
+# Repositório Compass UOL
+
+## Olá, me chamo Diego. Esse repositório foi criado para armazenar o conteúdo e os códigos das atividades do Programa de Bolsas da Compass UOL
 
 ## Formação e Estágio:
  * Cursando: Análise e Desenvolvimento de Sistemas | IFPA <img src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" width="15" height="20"/>
