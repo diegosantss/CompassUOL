@@ -1,5 +1,15 @@
-## Olá, me chamo Diego. Irei mostrar o que estou aprendendo:
+# Olá, me chamo Diego. Irei mostrar o que estou aprendendo
 
-#### • 👨🏽‍💻	  Cursando: Análise e Desenvolvimento de Sistemas | IFPA
-#### •	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" height="20"/> <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" width="20" height="20"/> Estou aprendendo as tecnologias: Python  
-#### • <img src="https://logospng.org/download/uol/logo-uol-icon-1024.png" width ="20" height ="20"/> Estagiando: Compass UOL - AWS Cloud Data Engineering
+## Formação e Estágio:
+ * Cursando: Análise e Desenvolvimento de Sistemas | IFPA <img src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" width="15" height="20"/>
+* Estagiando: Compass UOL <img src="https://logospng.org/download/uol/logo-uol-icon-1024.png" width ="20" height ="20"/> AWS Cloud Data Engineering
+
+## Estou em Processo de Aprendizagem das Tecnologias:
+* <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" width="20" height="20"/> - **Python**
+*	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" height="20"/> - **JavaScript**
+*	<img src="https://www.freeiconspng.com/uploads/sql-server-icon-png-27.png" width="20" height="20"/> - **SQL**
+*	<img src="https://cdn.iconscout.com/icon/free/png-256/aws-1869025-1583149.png" width="20" height="20"/> - **Cloud AWS**
+*	<img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/apache_spark_logo_icon_170560.png" width="20" height="20"/> - **Apache Spark**
+*	<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="20" height="20"/> - **Git**
+*	<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20" height="20"/> - **GitHub**
+*	<img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="20" height="20"/> - **Docker**
