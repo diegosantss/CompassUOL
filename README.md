@@ -9,6 +9,8 @@
 ## Contatos:
 <a href="https://www.linkedin.com/in/diegosants/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20" height="20"/></a> - **Linkedin**
 
+<a href="diego.silva.pb@compasso.com.br"><img src="https://cdn-icons-png.flaticon.com/512/732/732223.png" width="20" height="20"/></a> - **Outlook**
+
 ## Estou em Processo de Aprendizagem das seguintes Linguagens e Ferramentas:
 #### Linguagens e Frameworks
 * <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" width="20" height="20"/> - **HTML**
