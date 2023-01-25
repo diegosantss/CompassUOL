@@ -6,6 +6,9 @@
  * Cursando: Análise e Desenvolvimento de Sistemas | IFPA <img src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" width="15" height="20"/>
 * Estagiando: Compass UOL <img src="https://logospng.org/download/uol/logo-uol-icon-1024.png" width ="20" height ="20"/> AWS Cloud Data Engineering
 
+## Contatos:
+<a href="https://www.linkedin.com/in/diegosants/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20" height="20"/></a> - **Linkedin**
+
 ## Estou em Processo de Aprendizagem das seguintes Linguagens e Ferramentas:
 #### Linguagens e Frameworks
 * <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" width="20" height="20"/> - **HTML**
@@ -21,3 +24,15 @@
 *	<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20" height="20"/> - **GitHub**
 
 *	<img src="https://github.com/devicons/devicon/raw/master/icons/linux/linux-original.svg" width="20" height="20"/> - **Linux**
+
+## Etapa do programa de bolsas:
+- [x] sprint 1 
+- [ ] sprint 2
+- [ ] sprint 3
+- [ ] sprint 4
+- [ ] sprint 5
+- [ ] sprint 6
+- [ ] sprint 7
+- [ ] sprint 8
+- [ ] sprint 9
+- [ ] sprint 10
