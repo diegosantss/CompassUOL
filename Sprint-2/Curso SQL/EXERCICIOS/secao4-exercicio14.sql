@@ -7,4 +7,4 @@ from tbvendas
 right join tbvendedor on tbvendas.cdvdd = tbvendedor.cdvdd 
 where status ='Concluído'
 GROUP BY tbvendas.estado 
-order by gastomedio desc
+order by gastomedio descv
