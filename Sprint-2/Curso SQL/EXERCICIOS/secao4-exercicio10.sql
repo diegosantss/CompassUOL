@@ -5,19 +5,15 @@ Com base em tais informações, calcule a comissão de todos os vendedores, cons
 As colunas presentes no resultado devem ser vendedor, valor_total_vendas e comissao. O valor de comissão deve ser apresentado em ordem decrescente arredondado na segunda casa decimal.
 */
 
--- FORMA CONFORME O ENUNCIADO PEDE
-select tbvendedor.nmvdd as vendedor, SUM(qtd*vrunt) as valor_total_vendas , round((tbvendedor.perccomissao/100*SUM(qtd*vrunt)), 2) as comissao  
-from tbvendas 
-right join tbvendedor on tbvendas.cdvdd = tbvendedor.cdvdd 
-where status ='Concluído'
-GROUP BY tbvendedor.nmvdd 
-order by comissao desc
-
--- FORMA TESTE
-
-select tbvendedor.nmvdd as vendedor, SUM(qtd*vrunt) as valor_total_vendas , round((tbvendedor.perccomissao*SUM(qtd*vrunt)/100), 2) as comissao  
-from tbvendas 
-right join tbvendedor on tbvendas.cdvdd = tbvendedor.cdvdd 
-where status ='Concluído'
-GROUP BY tbvendedor.nmvdd 
-order by comissao desc
+SELECT tbvendedor.nmvdd                                               AS
+       vendedor,
+       Sum(qtd * vrunt)                                               AS
+       valor_total_vendas,
+       Round(( tbvendedor.perccomissao * Sum(qtd * vrunt) / 100 ), 2) AS
+       comissao
+FROM   tbvendas
+       RIGHT JOIN tbvendedor
+               ON tbvendas.cdvdd = tbvendedor.cdvdd
+WHERE  status = 'Concluído'
+GROUP  BY tbvendedor.nmvdd
+ORDER  BY comissao DESC 

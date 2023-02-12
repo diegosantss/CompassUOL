@@ -2,8 +2,13 @@
 
 Obs: Somente vendas concluídas.*/
 
-select estado, nmpro, ROUND(avg(qtd), 4 ) as quantidade_media
-from tbvendas
-where status = 'Concluído'
-group by estado, nmpro 
-order by estado , nmpro 
+SELECT estado,
+       nmpro,
+       Round(Avg(qtd), 4) AS quantidade_media
+FROM   tbvendas
+WHERE  status = 'Concluído'
+GROUP  BY estado,
+          nmpro
+ORDER  BY estado,
+          nmpro 
+

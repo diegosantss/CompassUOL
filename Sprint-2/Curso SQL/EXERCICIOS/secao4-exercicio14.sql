@@ -2,9 +2,11 @@
 
 Observação: Apenas vendas com status concluído.*/
 
-select estado , round(AVG((qtd*vrunt)), 2) as gastomedio 
-from tbvendas 
-right join tbvendedor on tbvendas.cdvdd = tbvendedor.cdvdd 
-where status ='Concluído'
-GROUP BY tbvendas.estado 
-order by gastomedio descv
+SELECT estado,
+       Round(Avg(( qtd * vrunt )), 2) AS gastomedio
+FROM   tbvendas
+       RIGHT JOIN tbvendedor
+               ON tbvendas.cdvdd = tbvendedor.cdvdd
+WHERE  status = 'Concluído'
+GROUP  BY tbvendas.estado
+ORDER  BY gastomedio DESC
