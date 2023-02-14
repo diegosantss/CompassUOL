@@ -11,4 +11,3 @@ GROUP  BY estado,
           nmpro
 ORDER  BY estado,
           nmpro 
-

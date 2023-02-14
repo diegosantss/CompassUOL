@@ -7,13 +7,13 @@ As colunas presentes no resultado devem ser vendedor, valor_total_vendas e comis
 
 SELECT tbvendedor.nmvdd                                               AS
        vendedor,
-       Sum(qtd * vrunt)                                               AS
+       Sum(qtd * vrunt)                                                AS
        valor_total_vendas,
-       Round(( tbvendedor.perccomissao * Sum(qtd * vrunt) / 100 ), 2) AS
+       Round((perccomissao/100.0) * Sum(qtd *vrunt), 2) AS
        comissao
 FROM   tbvendas
        RIGHT JOIN tbvendedor
                ON tbvendas.cdvdd = tbvendedor.cdvdd
 WHERE  status = 'Concluído'
 GROUP  BY tbvendedor.nmvdd
-ORDER  BY comissao DESC 
+ORDER  BY comissao DESC
