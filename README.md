@@ -2,8 +2,11 @@
 
 ## Olá, me chamo Diego. Esse repositório foi criado para armazenar o conteúdo e os códigos das atividades do Programa de Bolsas "AWS Cloud Data Engineering" da Compass UOL
 
+## Informações Pessoais:
+Me chamo Diego Matheus dos Santos da Silva, tenho 21 anos, moro na cidade de Ananindeua no Pará, tenho conhecimentos em SQL, Java, JavaScript, HTML, CSS e python, PowerBI. Tenho por hobbies ver filmes, series, jogar. Gosto de saber como as coisas funcionam de maneira tecnica, estou em processo de estudo para me tornar um Desenvolvedor de Software, espero conseguir uma oportunidade na Compass. Estou disponivel para contato através do meu linkedin ou Email.
+
 ## Formação e Estágio:
- * Cursando: Análise e Desenvolvimento de Sistemas | IFPA <img src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" width="15" height="20"/>
+ * Cursando: Análise e Desenvolvimento de Sistemas - 6º semestre | IFPA <img src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" width="15" height="20"/>
 * Estagiando: Compass UOL <img src="https://logospng.org/download/uol/logo-uol-icon-1024.png" width ="20" height ="20"/> AWS Cloud Data Engineering
 
 ## Contatos:
@@ -28,9 +31,9 @@
 *	<img src="https://github.com/devicons/devicon/raw/master/icons/linux/linux-original.svg" width="20" height="20"/> - **Linux**
 
 ## Etapa do programa de bolsas:
-- [x] sprint 1 
-- [ ] sprint 2
-- [ ] sprint 3
+- [x] sprint 1 - Git/GitHub and Linux
+- [x] sprint 2 - SQL and Big Data
+- [ ] sprint 3 - 
 - [ ] sprint 4
 - [ ] sprint 5
 - [ ] sprint 6
