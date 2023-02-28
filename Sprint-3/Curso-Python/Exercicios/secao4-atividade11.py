@@ -7,4 +7,4 @@ arquivo.close()
 
 #Comandos para ler o arquivo
 arquivo = open("arquivo_texto.txt")
-print(arquivo.read())
+print(arquivo.read(), end="")
