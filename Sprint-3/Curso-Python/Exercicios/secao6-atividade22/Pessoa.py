@@ -4,7 +4,7 @@ class Pessoa:
         self.nome = None
         
     def set_nome(self, nome):
-        self.nome = nome
+        self.__nome = nome
         
     def get_nome(self):
-        return self.nome
+        return self.__nome
