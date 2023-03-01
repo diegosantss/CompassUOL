@@ -33,7 +33,7 @@ Me chamo Diego Matheus dos Santos da Silva, tenho 21 anos, moro na cidade de Ana
 ## Etapa do programa de bolsas:
 - [x] sprint 1 - Git/GitHub and Linux
 - [x] sprint 2 - SQL and Big Data
-- [ ] sprint 3 - 
+- [x] sprint 3 - Python
 - [ ] sprint 4
 - [ ] sprint 5
 - [ ] sprint 6
