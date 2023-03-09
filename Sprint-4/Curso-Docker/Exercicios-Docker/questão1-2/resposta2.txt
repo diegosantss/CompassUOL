@@ -1,0 +1,10 @@
+QUESTÃO 2:
+É possível reutilizar containers? Em caso positivo, apresente o comando necessário para reiniciar um dos containers parados em seu ambiente Docker? Não sendo possível reutilizar, justifique sua resposta.
+
+Resposta:
+
+Sim, é possivel reutilizar containers parados, utilizando o comando 'docker start' seguido do ID ou nome do container. 
+Caso queira reiniciar um docker em execução, poderá utilizar o comando 'docker restart' seguido do ID ou nome do container que irá funcionar.
+
+Bônus:
+Utilizando o comando 'docker logs' seguido do ID, você verá as saídas do arquivo carguru.py trabalho da questão anterior.
