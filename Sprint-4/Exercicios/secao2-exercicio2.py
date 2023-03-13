@@ -8,5 +8,6 @@ def conta_vogais(palavra):
     #quantidade de vogais utilizando o filter em conjunto com o lambda, armazenar em uma lista apenas com as vogais e len() para contar a quantidade de itens da lista.
     quant_vogais = len(list(filter(lambda x: x in 'AEIOUaeiou', palavra)))
     return quant_vogais
+teste = 'testando esse conta vogais'
 
-print(conta_vogais)
+print(conta_vogais(teste))
