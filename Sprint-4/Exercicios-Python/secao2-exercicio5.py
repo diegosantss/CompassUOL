@@ -17,7 +17,7 @@ import csv
 def calcular_media(top3_notas):
     return round(sum(top3_notas) / 3, 2)
 
-with open('estudantes.csv', newline='') as csvfile:
+with open('Sprint-4\Exercicios\estudantes.csv', newline='') as csvfile:
     arquivo = csv.reader(csvfile, delimiter=',')
 
     # Criar lista de dicionários para armazenar informações dos estudantes
