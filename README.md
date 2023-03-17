@@ -34,7 +34,7 @@ Me chamo Diego Matheus dos Santos da Silva, tenho 21 anos, moro na cidade de Ana
 - [x] sprint 1 - Git/GitHub and Linux
 - [x] sprint 2 - SQL and Big Data
 - [x] sprint 3 - Python
-- [ ] sprint 4
+- [x] sprint 4 - Docker and Functional Python
 - [ ] sprint 5
 - [ ] sprint 6
 - [ ] sprint 7
