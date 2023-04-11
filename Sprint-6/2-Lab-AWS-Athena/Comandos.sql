@@ -1,3 +1,7 @@
+--Criar banco de dados
+
+CREATE DATABASE meubanco
+
 --Criação da Tabela dados para inserção das informações do CSV
 
 CREATE EXTERNAL TABLE IF NOT EXISTS meubanco.dados (
@@ -18,25 +22,21 @@ LOCATION 's3://teste-bucket01/dados/'
 SELECT decada, nome, Quant_uso
 FROM (
   SELECT 
-    SUBSTR(CAST(ano AS VARCHAR), 1, 3) || '0s' AS decada,
+    SUBSTR(CAST(ano AS VARCHAR), 1, 3) || '0s' AS decada, 
     nome,
     SUM(total) AS Quant_uso,
     ROW_NUMBER() OVER (
-      PARTITION BY SUBSTR(CAST(ano AS VARCHAR), 1, 3) || '0s'
-      ORDER BY SUM(total) DESC, nome ASC
+      PARTITION BY decada
+      ORDER BY Quant_uso DESC, nome ASC
     ) AS top_3
   FROM 
     meubanco.dados
   WHERE 
     ano >= 1950
   GROUP BY 
-    SUBSTR(CAST(ano AS VARCHAR), 1, 3) || '0s',
-    nome
-  HAVING 
-    COUNT(DISTINCT ano) >= 10
-) subquery
+    decada, nome
+)
 WHERE 
   top_3 <= 3
 ORDER BY 
   decada, Quant_uso DESC;
-
