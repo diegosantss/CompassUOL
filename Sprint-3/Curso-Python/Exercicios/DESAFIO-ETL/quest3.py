@@ -15,4 +15,4 @@ ordem_lista = sorted(lista, key=lambda x: x['avg_movie'], reverse=True)
 
 print(ordem_lista[0]['actor'], ordem_lista[0]['avg_movie'])
 
-SAÍDA: Anthony Daniels 451.8
+#SAÍDA: Anthony Daniels 451.8

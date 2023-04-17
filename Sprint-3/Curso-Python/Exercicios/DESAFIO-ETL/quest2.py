@@ -17,4 +17,4 @@ total_movies = sum([d['num_movies'] for d in lista])
 avg_movies = total_movies / num_ator
 print(f"Média de filmes por ator: {avg_movies:.2f}")
 
-SAÍDA: Média de filmes por ator: 37.88
+#SAÍDA: Média de filmes por ator: 37.88

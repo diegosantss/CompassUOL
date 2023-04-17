@@ -22,4 +22,4 @@ freq = filme_freq[maior_freq_filme]
 
 print(f'O filme mais frequente é "{maior_freq_filme}", com uma frequência igual a {freq}.')
 
-SAÍDA: O filme mais frequente é "The Avengers", com uma frequência igual a 6.
+#SAÍDA: O filme mais frequente é "The Avengers", com uma frequência igual a 6.

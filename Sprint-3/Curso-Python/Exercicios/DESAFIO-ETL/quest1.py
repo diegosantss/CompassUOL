@@ -16,4 +16,4 @@ ordem_lista = sorted(lista, key=lambda x: x['num_movies'], reverse=True)
 
 print(ordem_lista[0]['actor'], ordem_lista[0]['num_movies'])
 
-SAÍDA: Robert DeNiro 79
+#SAÍDA: Robert DeNiro 79

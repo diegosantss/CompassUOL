@@ -18,7 +18,7 @@ for elem in ordem_lista:
     print(elem['actor'])
 
 
-
+'''
 SAÍDA: 
 Harrison Ford
 Samuel L. Jackson
@@ -70,3 +70,4 @@ Philip Seymour Hoffman
 Sandra Bullock
 Chris Evans
 Anne Hathaway
+'''
