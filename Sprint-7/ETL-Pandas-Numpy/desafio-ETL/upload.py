@@ -2,8 +2,8 @@ import boto3
 import datetime
 
 #colocando em uma variavel o local dos arquivos de upload
-movies_filename = 'movies.csv'
-series_filename = 'series.csv'
+movies_filename = 'data/movies.csv'
+series_filename = 'data/series.csv'
 
 #criando uma seção na AWS com o nome do perfil e região
 session = boto3.Session(profile_name="310881667198_AdministratorAccess",region_name="us-east-1")
@@ -24,4 +24,3 @@ series_path = f'Raw/Local/CSV/Series/{today.year}/{today.month}/{today.day}/seri
 #processo de upload para a AWS
 s3.meta.client.upload_file(movies_filename, bucket_name, movies_path)
 s3.meta.client.upload_file(series_filename, bucket_name, series_path)
-

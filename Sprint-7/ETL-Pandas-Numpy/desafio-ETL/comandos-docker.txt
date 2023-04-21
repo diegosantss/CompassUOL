@@ -1,0 +1,9 @@
+comandos para executar o docker:
+
+Vá para o diretorio no qual está contido o dockerfile e execute o comando para criar a imagem:
+
+    Docker build -t imagem-boto3 .
+
+Agora execute o proximo comando para executar a imagem deixando visivel as credenciais da aws para acesso:
+
+    docker run -v ${HOME}/.aws/credentials:/root/.aws/credentials:ro imagem-boto3
