@@ -1,0 +1,4 @@
+#Ignore os arquivos csv do desafio de ETL por ser muito grandes.
+
+movies.csv
+series.csv
