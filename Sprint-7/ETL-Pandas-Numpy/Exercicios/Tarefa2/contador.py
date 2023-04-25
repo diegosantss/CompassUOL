@@ -1,11 +1,13 @@
 # faça um programa que conte as palavras de um arquivo README.md
 
-with open('README.md', 'r') as f:
-    arquivo = f.read()
+#arquivo não contem import do pyspark pois é para ser executado diretamente do container que está instalado a imagem do spark completa, sendo executado direto no terminal do pyspark.
 
-palavras = arquivo.split()
+# Lê o arquivo de texto
+texto = spark.sparkContext.textFile("README.md")
 
-quantidade = len(palavras)
+# Divide o texto em palavras e conta a quantidade total de palavras
+quantidade_palavras = texto.flatMap(lambda linha: linha.split(" ")).count()
 
-print (quantidade)
+# Imprime o resultado
+print(quantidade_palavras)
 

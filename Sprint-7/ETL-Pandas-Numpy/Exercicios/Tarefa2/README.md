@@ -1,3 +1,5 @@
-oi diego tudo bem contigo, tudo certo
+oi diego tudo bem contigo tudo certo
 
-opa
+teste para verificar quantidade de palavras no README
+
+espero que dê certo
