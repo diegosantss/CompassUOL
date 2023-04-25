@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+VOLUME /app
+
 RUN pip install boto3
 
 CMD ["python", "upload.py"]
