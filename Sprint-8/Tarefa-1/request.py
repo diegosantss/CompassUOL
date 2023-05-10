@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 
+
 from IPython.display import display
 
 api_key = "c4fb0f2c7c91ab69add9acc126afb031"
@@ -22,3 +23,4 @@ for movie in data['results']:
 
 df = pd.DataFrame(filmes)
 display(df)
+
