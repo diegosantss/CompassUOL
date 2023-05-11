@@ -27,4 +27,3 @@ for i in range(0,qtd_nomes_aleatorios):
 with open('nomes_aleatorios.txt', 'w') as f:
     for nome in dados:
         f.write(nome + '\n')
-
