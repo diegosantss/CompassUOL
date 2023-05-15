@@ -1,0 +1,25 @@
+Para realizar a Normalização dessa base de dados, deve-se Seguir os passos para se encaixar em cada uma das Formas Normais.
+
+1 Primeira Forma Normal(1FN):
+
+    - Possui chave primária;
+    - Não possui grupos repetitivos;
+    - Todos os seus atributos são atômicos, ou seja, não precisa ser decomposto.
+
+    Verificando a Tabela "tb_locacao" do base de dados "concessionaria.sqlite", pode-se considerar a coluna 'idLocacao'como Primary Key (PK), pois é um identificador unico para cada locação. Além disso, os campos são atômicos, não necessitando de decomposição. Dessa forma, a tabela se encontra na 1FN.
+
+2 - Segunda Forma Normal(2FN):
+    - Está na primeira forma normal;
+    - Não possui dependências parciais da chave primária;
+
+    Verificando a tabela "tb_locacao", pode-se identificar que os campos "nomeCliente","cidadeCliente","estadoCliente","paisCliente","nomeVendedor", "sexoVendedor" e "estadoVendedor" não são totalmente dependentes da Primary Key 'idLocacao'. Se referem a informações do Cliente e Vendedor, dessa forma, seria necessário criar duas novas tabelas para armazenar essas informações do Cliente e outra para o Vendedor e adicionando na tabela "tb_locacao" um relacionamento entre as outras tabelas.
+
+3 - Terceira Forma Normal (3FN):
+
+    - Está na segunda forma normal;
+    - Se nenhum dos campos foram determinados transitivamente pela chave primária(os campos devem depender apenas da 'PK').
+
+    Analisando a tabela "tb_locacao", identifica-se o campo "marcaCarro" dependendo do campo "idCarro", assim como "tipoCombustivel" depende do campo "idCombustivel", dessa forma deve-se criar duas novas tabelas para armazenar informações dos carros e combustiveis e referenciando o carro e o combustivel na tabela "tb_locacao" pelo campo "idCarro" e idCombustivel.
+
+Obs: a coluna "kmCarro" ficou na tabela "tb_locacao_normalizada" e não na tabela de Carro, pois o ID se repete, alterando apenas a kilometragem do carro, dessa forma ficaria ID's repetidos para diferentes kmCarro, dando conflito, dessa forma foi alocado para a tabela de locacao para conseguir realizar o relacionamento de maneira coerente.
+
