@@ -1,15 +1,16 @@
 from pyspark.sql import SparkSession
-
-# Caminho para o arquivo Parquet
-parquet_path = 'parquet-json/2023/5/17/detach_json.parquet/part-00000-d90082cf-7b68-4b52-9de0-fcebb981d120-c000.snappy.parquet'
+from pyspark.sql.functions import col, sum
 
 # Configuração do Spark
 spark = SparkSession.builder \
-    .appName('Read Parquet File') \
+    .appName('Check Zero Budget') \
     .getOrCreate()
 
-# Carrega o arquivo Parquet
-df = spark.read.parquet(parquet_path)
+# Carrega o DataFrame
+df = spark.read.parquet('destino/fato_filme')
 
-# Exibe o DataFrame
-df.show()
+# Verifica quantos valores na coluna 'budget' são iguais a 0
+zero_budget_count = df.filter(col('revenue') == 0).count()
+
+# Exibe o resultado
+print('Quantidade de valores na coluna "budget" iguais a 0:', zero_budget_count)
