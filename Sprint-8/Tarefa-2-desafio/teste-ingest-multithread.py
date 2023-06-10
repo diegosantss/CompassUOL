@@ -65,6 +65,8 @@ def lambda_handler(event, context):
     # Filtrar os filmes de romance dos últimos 20 anos
     filmes_filtrados = movies_df.loc[(movies_df['genero'].str.contains('Romance')) & (movies_df['anoLancamento'] >= datetime.datetime.now() - pd.DateOffset(years=20))]
     movie_ids = list(filmes_filtrados['id'].unique().tolist())
+
+    
     
     # Definindo a pasta de saída dos arquivos JSON da primeira chamada da API
     find_folder = 'Raw/TMDB/JSON/find'
@@ -126,5 +128,3 @@ def lambda_handler(event, context):
         s3.put_object(Body=json.dumps(data_batch, indent=4), Bucket=bucket_name, Key=detach_filename) 
 
     return num_requests, num_missing_movies, 'Finished processing movies data.'
-
-
