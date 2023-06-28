@@ -37,7 +37,7 @@ Me chamo Diego Matheus dos Santos da Silva, tenho 21 anos, moro na cidade de Ana
 - [x] sprint 4 - Docker and Functional Python
 - [x] sprint 5 - introduction to AWS 
 - [x] sprint 6 - AWS
-- [ ] sprint 7 - Hadoop + Pyspark
-- [ ] sprint 8
-- [ ] sprint 9
-- [ ] sprint 10
+- [x] sprint 7 - Hadoop + Pyspark
+- [x] sprint 8 - AWS Desafio Part 1 - aws S3 + Lambda
+- [x] sprint 9 - AWS Desafio Part 2 - Glue + aws S3 + 
+- [x] sprint 10 -AWS Desafio Part 3 Final + Quicksight + Athena + Lambda
